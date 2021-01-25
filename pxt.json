@@ -1,0 +1,34 @@
+{
+    "name": "The spy platformer (ft. Agent 14)",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.10.0",
+        "animation": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "darts": "*",
+        "pxt-lantern": "github:riknoll/pxt-lantern\\#v0.1.1",
+        "color": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.3.42",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
